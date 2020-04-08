@@ -4,9 +4,9 @@
   "description": "learning git",
   "main": "index.html",
   "scripts": {
-    "start" : "npm run lite",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite" : "lite-server"
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/amitkhairnar/fullstack-dev/issues"
   },
-  "homepage": "https://github.com/amitkhairnar/fullstack-dev#readme"
+  "homepage": "https://github.com/amitkhairnar/fullstack-dev#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
